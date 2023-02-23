@@ -1,0 +1,70 @@
+.home main a{
+    text-decoration: none;
+    color: rgb(233, 21, 21);
+}
+
+/* .home h3 {
+    font-size: 15px;
+} */
+
+.home main .personal{
+    text-align: center;
+    
+}
+
+.home main .personal h3{
+    margin: 10px 0;
+}
+
+.home main .personal a{
+    color: black;
+}
+
+.home main h2{
+    margin: 10px 0
+}
+
+.home main .detalle p{
+    margin:10px 0 ;
+}
+
+.home main .educacion h2{
+    margin: 10px 0 0 0;
+}
+
+.home main .educacion i{
+    margin: 10px 0;
+}
+
+.home main .educacion a{
+    color: black;
+}
+
+.home main .experiencia{
+    margin: 10px 0;
+}
+
+.home main .experiencia p{
+    margin: 10px 0;
+}
+
+@media(min-width:760px){
+    .home main section{
+        display: flex;/* Me aparece todos los articul€os unoa a lado del otro */
+        flex-wrap: wrap;/* respeta el tamanio que le estamos dando a nuestro articulo */
+        justify-content:space-between;
+    }
+    .home main section article{
+        width: 48%;
+    }
+
+    .home main .personal,.educacion,.boton{
+        text-align: start;
+        padding: 0 20px;
+        border-right: 1px solid black;
+    }
+
+    .home main .boton{
+        margin-top: -150px;
+    }
+}
